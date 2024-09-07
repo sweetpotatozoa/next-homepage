@@ -6,6 +6,7 @@ import { PEOPLE_INFORMATION_TYPE } from 'types/people/people-information';
 export const PEOPLE_ITEMS = {
     TEN: 10,
     ELEVEN: 11,
+    TWELVE: 12,
 };
 
 export enum DEPARTMENT {
@@ -17,6 +18,7 @@ export enum DEPARTMENT {
     DESIGN = '디자인조형학부',
     MEDIA = '미디어학부',
     BIO_MEDICAL_ENGINEERING = '바이오의공학부',
+    HEALTH_POLICY_AND_MANAGEMENT = '보건정책관리학부',
     HEALTH_ENVIRONMENTAL_CONVERGENCE_SCIENCE = '보건환경융합과학부',
     PSYCHOTHERAPY = '심리학과',
     SOCIOLOGY = '사회학과',
@@ -471,5 +473,13 @@ export const PEOPLE_INFORMATION: PEOPLE_INFORMATION_TYPE[] = [
         classOf: 20,
         imgSrc: '/images/profile/11gen/11기_최유빈.png',
         managementTeam: MANAGEMENT_TEAM_POSITION.EXECUTIVE,
+    },
+    {
+        gen: PEOPLE_ITEMS.TWELVE,
+        name: '김상우',
+        department: DEPARTMENT.HEALTH_POLICY_AND_MANAGEMENT,
+        classOf: 19,
+        imgSrc: '/images/profile/12gen/12기_김상우.jpg',
+        managementTeam: '학회원',
     },
 ];
